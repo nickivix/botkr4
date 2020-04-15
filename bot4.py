@@ -11,7 +11,7 @@ from telebot import types
 from threading import Thread, Lock
 
 APP_NAME='nickivixbot'
-bot = telebot.TeleBot('1203796579:AAEhYHUDIHTeuk2H7HVylLPjzequFhssLHM')
+bot = telebot.TeleBot('')
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
 keyboard1.row('Оповещать про урок', 'Расписание')
 
